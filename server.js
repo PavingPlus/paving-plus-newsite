@@ -38,14 +38,14 @@ app.post("/contact/send-mail", (req, res) => {
         port: 465,
         secure: true, // true for 465, false for other ports
         auth: {
-            user: "ashish.worksspace@gmail.com", // generated ethereal user 
-            pass: "nuwadpdixiiophfg", // generated ethereal password 
+            user: "support@paving-plus.com", // generated ethereal user 
+            pass: "hsnwgrkjqlnhgtmf", // generated ethereal password 
         },
     });
 
     let mailOption = {
-        from: 'ashish.worksspace@gmail.com', // sender address
-        to: 'ashish.worksspace@gmail.com', // list of receivers
+        from: 'support@paving-plus.com', // sender address
+        to: 'support@paving-plus.com', // list of receivers
         subject: "You got a new query for Paving+ ", // Subject line
         text: "You got a new query for Paving+", // plain text body
         html: output, // html body
@@ -83,14 +83,14 @@ app.post("/team/send-mail", (req, res) => {
         port: 465,
         secure: true, // true for 465, false for other ports
         auth: {
-            user: "ashish.worksspace@gmail.com", // generated ethereal user 
-            pass: "nuwadpdixiiophfg", // generated ethereal password 
+            user: "support@paving-plus.com", // generated ethereal user 
+            pass: "hsnwgrkjqlnhgtmf", // generated ethereal password 
         },
     });
 
     let mailOption = {
-        from: 'ashish.worksspace@gmail.com', // sender address
-        to: 'ashish.worksspace@gmail.com', // list of receivers
+        from: 'support@paving-plus.com', // sender address
+        to: 'support@paving-plus.com', // list of receivers
         subject: "You got a new query for Paving+ ", // Subject line
         text: "You got a new query for Paving+", // plain text body
         html: output, // html body
@@ -129,14 +129,14 @@ app.post("/popup/send-mail", (req, res) => {
         port: 465,
         secure: true, // true for 465, false for other ports
         auth: {
-            user: "ashish.worksspace@gmail.com", // generated ethereal user 
-            pass: "nuwadpdixiiophfg", // generated ethereal password 
+            user: "support@paving-plus.com", // generated ethereal user 
+            pass: "hsnwgrkjqlnhgtmf", // generated ethereal password 
         },
     });
 
     let mailOption = {
-        from: 'ashish.worksspace@gmail.com', // sender address
-        to: 'ashish.worksspace@gmail.com', // list of receivers
+        from: 'support@paving-plus.com', // sender address
+        to: 'support@paving-plus.com', // list of receivers
         subject: "You got a new query for Paving+ ", // Subject line
         text: "You got a new query for Paving+", // plain text body
         html: output, // html body
