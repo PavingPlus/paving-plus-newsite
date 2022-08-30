@@ -35,8 +35,8 @@ app.post("/contact/send-mail", (req, res) => {
 
     let transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
-        port: 465,
-        secure: true, // true for 465, false for other ports
+        port: 587,
+        secure: false, // true for 465, false for other ports
         auth: {
             user: "support@paving-plus.com", // generated ethereal user 
             pass: "hsnwgrkjqlnhgtmf", // generated ethereal password 
