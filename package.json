@@ -1,36 +1,20 @@
 {
-  "name": "paving-plus-backend",
+  "name": "paving",
   "version": "1.0.0",
-  "description": "paving+ mailing server.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ashish13377/paving-plus-backend.git"
-  },
-  "author": "Ashish",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ashish13377/paving-plus-backend/issues"
-  },
-  "homepage": "https://github.com/ashish13377/paving-plus-backend#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "crypto-js": "^4.1.1",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.2.4",
-    "nodemailer": "^6.7.3",
-    "razorpay": "^2.8.1",
-    "shortid": "^2.2.16"
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.20"
   }
 }
