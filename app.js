@@ -23,16 +23,12 @@ app.get('/about-us', (req, res) => {
     res.render('about')
 })
 
-app.get('/product', (req, res) => {
-    res.render('about')
+app.get('/products', (req, res) => {
+    res.render('product')
 })
 
 app.get('/contact-us', (req, res) => {
-    res.render('about')
-})
-
-app.get('/team', (req, res) => {
-    res.render('about')
+    res.render('contact')
 })
 
 app.get('/brochure', (req, res) => {
